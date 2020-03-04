@@ -47,3 +47,39 @@ class DataCustomizer2019(DataCustomizer):
             'אמת': 'העבודה'
         }
 
+
+class DataCustomizer2019_2(DataCustomizer):
+    def __init__(self):
+        super().__init__()
+        self.threshold = 0.0325
+        self.first_party_ix = 10
+        self.file_name = '2019_2_booths.csv'
+        self.party_names = {
+            'ג': 'יהדות התורה',
+            'ודעם': 'הרשימה המשותפת',
+            'טב': 'ימינה',
+            'ל': 'ישראל ביתנו',
+            'מחל': 'הליכוד',
+            'מרצ': 'המחנה הדמוקרטי',
+            'פה': 'כחול לבן',
+            'שס': 'שס',
+            'אמת': 'העבודה'
+        }
+
+class DataCustomizer2020(DataCustomizer):
+    def __init__(self):
+        super().__init__()
+        self.threshold = 0.0325
+        self.first_party_ix = 10
+        self.file_name = '2020_booths.csv'
+        self.party_names = {
+            'ג': 'יהדות התורה',
+            'ודעם': 'הרשימה המשותפת',
+            'טב': 'ימינה',
+            'ל': 'ישראל ביתנו',
+            'מחל': 'הליכוד',
+            'פה': 'כחול לבן',
+            'שס': 'שס',
+            'אמת': 'העבודה - גשר - מרצ'
+        }
+

@@ -1,7 +1,7 @@
 import pandas as pd
 import data_customizers
 
-customizer = data_customizers.DataCustomizer2019()
+customizer = data_customizers.DataCustomizer2020()
 
 
 def run():
